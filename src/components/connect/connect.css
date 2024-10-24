@@ -1,0 +1,38 @@
+.connect {
+  /* background: rgba(30, 30, 30, 1); */
+  font-family: 'Syne';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.event-categories {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.event-categories-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.event-category {
+  margin: 0 1rem;
+  color: #888;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .connect {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
